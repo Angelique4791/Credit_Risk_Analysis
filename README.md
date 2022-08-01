@@ -14,6 +14,7 @@ This analysis is meant to determine the viability of machine learning models to 
 </ul>
 
 <img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/ranover_bal_accuracy.png" alt="Random Oversample, Balanced Accuracy">
+<img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/ranover_calss_report.png" alt="Random Oversample, Classification Report">
 
 ### SMOTE Oversampling
 <ul>
@@ -23,6 +24,9 @@ This analysis is meant to determine the viability of machine learning models to 
   <li>F1 score comfirms the presicision and sensitivity of both low-risk (.78) and high-risk (.02) are questionable</li>
 </ul>
 
+<img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/SMOTE_balanced_accuracy.png" alt="SMOTE, Balanced Accuracy">
+<img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/SMOTE_class_report.png" alt="SMOTE,  Classification Report">
+
 ### Random Undersampling
 <ul>
   <li>Balanced accuracy score of .590 shows that only about 59 out of 100 applications are correctly predicted as high-risk or low-risk</li>
@@ -31,6 +35,9 @@ This analysis is meant to determine the viability of machine learning models to 
   <li>F1 score comfirms the presicision and sensitivity of both low-risk (.73) and high-risk (.01) are questionable</li>
 </ul>
 
+<img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/ranunder_balanced_accuracy.png" alt="Random Undersample, Balanced Accuracy">
+<img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/ranunder_class_report.png" alt="Random Undersample, Classification Report">
+
 ### Combination Sampling
 <ul>
   <li>Balanced accuracy score of .510 shows that only about 51 out of 100 applications are correctly predicted as high-risk or low-risk</li>
@@ -38,6 +45,9 @@ This analysis is meant to determine the viability of machine learning models to 
   <li>Sensitivity of low-risk is .43 with sensitivity of high-risk of .59 indicates that the model is susceptible to missing high-risk applicants</li>
   <li>F1 score comfirms the presicision and sensitivity of both low-risk (.60) and high-risk (.01) are questionable</li>
 </ul>
+
+<img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/combination_balanced_accuracy.png" alt="Combination Sample, Balanced Accuracy">
+<img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/combination_class_report.png" alt="Combination Sample, Classification Report">
 
 ## Summary
 
