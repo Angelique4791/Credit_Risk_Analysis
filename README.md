@@ -13,6 +13,8 @@ This analysis is meant to determine the viability of machine learning models to 
   <li>F1 score comfirms the presicision and sensitivity of both low-risk (.79) and high-risk (.02) are questionable</li>
 </ul>
 
+<img src="https://github.com/Angelique4791/Credit_Risk_Analysis/blob/main/Resources/ranover_bal_accuracy.png" alt="Random Oversample, Balanced Accuracy">
+
 ### SMOTE Oversampling
 <ul>
   <li>Balanced accuracy score of .630 shows that only about 63 out of 100 applications are correctly predicted as high-risk or low-risk</li>
